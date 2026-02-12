@@ -10,12 +10,13 @@ export default function Hero() {
   const handleHireMe = () => navigate("/contact");
 
   return (
-    <section className="min-h-[85vh] flex items-center justify-center bg-background px-6">
-      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+   <section className="min-h-[85vh] flex items-center justify-center bg-background px-4 sm:px-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+
 
         {/* ================= LEFT CONTENT ================= */}
-        <div>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+        <div className ="mt-8 md:mt-0">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight">
             Hi, I’m{" "}
             <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
               <TypeAnimation
@@ -51,18 +52,18 @@ export default function Hero() {
           </p>
 
           {/* ================= CTA BUTTONS ================= */}
-          <div className="mt-8 flex flex-wrap gap-4">
+          <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-4">
 
-            <CustomButton onClick={handleProjects}>
+            <CustomButton onClick={handleProjects} className="w-full sm:w-auto">
               View Projects
             </CustomButton>
 
-            <CustomButton variantType="secondary" onClick={handleHireMe}>
+            <CustomButton variantType="secondary" onClick={handleHireMe} className="w-full sm:w-auto">
               Contact Me
             </CustomButton>
 
-            <a href="/Darshana Rane.pdf" download>
-              <CustomButton variantType="secondary">
+            <a href="/Darshana Rane.pdf" download >
+              <CustomButton variantType="secondary"className="w-full sm:w-auto">
                 Download Resume
               </CustomButton>
             </a>
@@ -72,7 +73,7 @@ export default function Hero() {
 
         {/* ================= RIGHT CONTENT ================= */}
         <div className="flex justify-center">
-          <div className="relative w-80 h-80 transition-transform duration-500 hover:scale-105">
+          <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 transition-transform duration-500 hover:scale-105">
 
             {/* Blob Background */}
             <div className="absolute -inset-6 animate-pulse">

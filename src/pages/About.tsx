@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="min-h-screen px-4 md:px-20 py-16 bg-gradient-to-b from-white to-purple-50">
+        <section className="min-h-screen px-4 md:px-20 py-10 bg-gradient-to-b from-white to-purple-50">
 
             <div className="max-w-6xl mx-auto">
 
