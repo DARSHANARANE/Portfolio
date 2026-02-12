@@ -86,13 +86,8 @@ export default function Navbar() {
               {item.name}
             </NavLink>
           ))}
-
-
-          <CustomButton variantType="secondary" onClick={handleHireMe}>
-            Hire Me
-          </CustomButton>
             <a href="/Darshana Rane.pdf" download>
-            <CustomButton variantType="secondary" className="ml-4">
+            <CustomButton variantType="secondary" className="mt-4">
               Resume
             </CustomButton>
           </a>
