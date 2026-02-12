@@ -1,16 +1,62 @@
-# React + Vite
+# Portfolio
+Modern portfolio website built with React, TypeScript, and Tailwind CSS. Showcasing my projects, skills, and experience as a Frontend Developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🌐 Darshana Rane – Developer Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, fully responsive portfolio website built with **React, TypeScript, and Tailwind CSS** to showcase my projects, skills, and professional experience as a Frontend Developer.
 
-## React Compiler
+🔗 Live Website: https://your-vercel-link.vercel.app  
+📄 Resume: [Download Resume](./public/resume.pdf)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Modern and responsive UI
+- 🎯 Clean and professional design
+- 🧩 Projects showcase section
+- 🛠 Skills & experience timeline
+- 📬 Contact page
+- 📱 Fully mobile responsive
+- 🚀 Fast performance with Vite
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, TypeScript
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Icons:** Lucide React
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+---
+
+## 🚀 Install dependencies:
+
+1) **npm install**
+2) **Run development server:**
+   
+        npm run dev
+4) **Build for production:**
+   
+        npm run build
+6) **Preview production build:**
+   
+        npm run preview
+---
+
+## 📁 Project Structure
+
+    src/
+
+     ├── components/
+     
+     ├── pages/
+     
+     ├── assets/
+     
+     ├── App.tsx
+     
+     └── main.tsx
