@@ -12,13 +12,12 @@ export default function Projects() {
                 </h2>
 
                 {/* ================= PERSONAL PROJECTS ================= */}
-                <div className="grid md:grid-cols-2 gap-10 mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 mb-16 sm:mb-20">
 
                     {/* Eatap */}
-                    {/* Eatap */}
-                    <div className="p-8 bg-white rounded-3xl shadow-lg 
-                hover:shadow-purple-300/40 hover:-translate-y-3 
-                transition-all duration-500">
+                    <div className="p-5 sm:p-8 bg-white rounded-3xl shadow-lg 
+hover:shadow-purple-300/40 hover:-translate-y-2 
+transition-all duration-500">
 
                         <h3 className="text-xl font-semibold text-purple-700">
                             Eatap – Mess Food Ordering Platform
@@ -53,7 +52,7 @@ export default function Projects() {
                         </p>
 
                         {/* Buttons */}
-                        <div className="flex gap-4 mt-6">
+                        <div  className="flex flex-col sm:flex-row gap-4 mt-6">
 
                             {/* Disabled Live Button */}
                             <CustomButton
@@ -69,7 +68,7 @@ export default function Projects() {
                                 href="https://github.com/DARSHANARANE/Eatap_Phase-2"
                                 target="_blank"
                             >
-                                <CustomButton variantType="secondary">
+                                <CustomButton variantType="secondary" className="w-full sm:w-auto">
                                     <Github size={16} className="mr-2" />
                                     Code
                                 </CustomButton>
@@ -108,12 +107,12 @@ export default function Projects() {
                         <p className="text-sm text-gray-500 mt-4">
                             Frontend: Netlify
                         </p>
-                        <div className="flex gap-4 mt-6">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-6">
                             <a
                                 href="https://search-ui-darshana-rane.netlify.app/"
                                 target="_blank"
                             >
-                                <CustomButton variantType="primary">
+                                <CustomButton variantType="primary"className="w-full sm:w-auto">
                                     <ExternalLink size={16} className="mr-2" />
                                     Live
                                 </CustomButton>
@@ -123,7 +122,7 @@ export default function Projects() {
                                 href="https://github.com/DARSHANARANE/search-ui"
                                 target="_blank"
                             >
-                                <CustomButton variantType="secondary">
+                                <CustomButton variantType="secondary"className="w-full sm:w-auto">
                                     <Github size={16} className="mr-2" />
                                     Code
                                 </CustomButton>

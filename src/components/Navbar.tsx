@@ -91,6 +91,11 @@ export default function Navbar() {
           <CustomButton variantType="secondary" onClick={handleHireMe}>
             Hire Me
           </CustomButton>
+            <a href="/Darshana Rane.pdf" download>
+            <CustomButton variantType="secondary" className="ml-4">
+              Resume
+            </CustomButton>
+          </a>
         </div>
       )}
     </header>
