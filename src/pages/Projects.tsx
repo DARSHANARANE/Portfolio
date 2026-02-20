@@ -129,6 +129,58 @@ transition-all duration-500">
                             </a>
                         </div>
                     </div>
+
+                      {/* Search UI */}
+                    <div className="p-8 bg-white rounded-3xl shadow-lg 
+                          hover:shadow-purple-300/40 hover:-translate-y-3 
+                          transition-all duration-500">
+
+                        <h3 className="text-xl font-semibold text-purple-700">
+                           Animated Circular Hero Slider
+                        </h3>
+
+                        <p className="text-gray-600 mt-4">
+                     Designed and developed a modern animated circular hero slider using React and Framer Motion.
+Implemented smooth 90° rotation transitions, dynamic active state management, and responsive mobile behavior.
+                        </p>
+
+                        <div className="flex flex-wrap gap-2 mt-5">
+                            {["React", "JavaScript", "Tailwind", "Framer Motion", "Responsive Design"].map(
+                                (tech, i) => (
+                                    <span
+                                        key={i}
+                                        className="text-xs px-3 py-1 rounded-full bg-purple-100 text-purple-600"
+                                    >
+                                        {tech}
+                                    </span>
+                                )
+                            )}
+                        </div>
+                        <p className="text-sm text-gray-500 mt-4">
+                            Frontend: Netlify
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                            <a
+                                href="https://fashion-3d-slider.netlify.app/"
+                                target="_blank"
+                            >
+                                <CustomButton variantType="primary"className="w-full sm:w-auto">
+                                    <ExternalLink size={16} className="mr-2" />
+                                    Live
+                                </CustomButton>
+                            </a>
+
+                            <a
+                                href="https://github.com/DARSHANARANE/fashion-3d-slider"
+                                target="_blank"
+                            >
+                                <CustomButton variantType="secondary"className="w-full sm:w-auto">
+                                    <Github size={16} className="mr-2" />
+                                    Code
+                                </CustomButton>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* ================= PROFESSIONAL EXPERIENCE ================= */}
