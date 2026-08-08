@@ -14,6 +14,68 @@ export default function Projects() {
                 {/* ================= PERSONAL PROJECTS ================= */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 mb-16 sm:mb-20">
 
+
+                       {/* mathlete */}
+                    <div className="p-5 sm:p-8 bg-white rounded-3xl shadow-lg 
+hover:shadow-purple-300/40 hover:-translate-y-2 
+transition-all duration-500">
+
+                        <h3 className="text-xl font-semibold text-purple-700">
+                            Mathlete –  Interactive Online Learning Platform
+                        </h3>
+
+                        <p className="text-gray-600 mt-4">
+                            Mathlete is an online learning platform designed to provide an engaging and interactive educational experience. As a Full Stack Developer, I contributed to both the frontend and backend of the application.
+                        </p>
+
+                        <div className="flex flex-wrap gap-2 mt-5">
+                            {[
+                                "React",
+                                "TypeScript",
+                                "Redux",
+                                "Tailwind",
+                                "Node.js",
+                                "MongoDB",
+                                "Node.js",
+                                " REST APIs",
+
+                            ].map((tech, i) => (
+                                <span
+                                    key={i}
+                                    className="text-xs px-3 py-1 rounded-full bg-purple-100 text-purple-600"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+
+                        <p className="text-sm text-gray-500 mt-4">
+                            Frontend: Netlify | Backend: Render | DB: MongoDB Atlas
+                        </p>
+
+                        {/* Buttons */}
+                             <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                            <a
+                                href="https://mathlete.co.in"
+                                target="_blank"
+                            >
+                                <CustomButton variantType="primary"className="w-full sm:w-auto">
+                                    <ExternalLink size={16} className="mr-2" />
+                                    Live
+                                </CustomButton>
+                            </a>
+
+                            <a
+                                href="https://github.com/DARSHANARANE/search-ui"
+                                target="_blank"
+                            >
+                                <CustomButton variantType="secondary"className="w-full sm:w-auto">
+                                    <Github size={16} className="mr-2" />
+                                    Code
+                                </CustomButton>
+                            </a>
+                        </div>
+                    </div>
                     {/* Eatap */}
                     <div className="p-5 sm:p-8 bg-white rounded-3xl shadow-lg 
 hover:shadow-purple-300/40 hover:-translate-y-2 
